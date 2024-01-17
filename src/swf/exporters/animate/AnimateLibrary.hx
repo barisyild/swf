@@ -69,6 +69,7 @@ import openfl.filters.GlowFilter;
 		super();
 
 		this.id = id;
+		this.uuid = uuid;
 
 		instanceID = uuid != null ? uuid : id;
 
